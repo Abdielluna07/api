@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and morty</title>
+</head>
+<body>
+    
+    <h1
+    style="color: rgb(0, 0, 0); 
+    font-family: Arial; 
+    font-size: 100px;" 
+    >Selcciona una imagen</h1>
+    
+
+    <style>
+
+        body  {
+             background-color: rgb(201, 247, 35);
+        }
+    </style>
+         
+    
+        <a href="index2.html"><img src="morty.jpg" width="1000px"
+            height="600px"></a>
+
+        <a href="index3.html"><img src="ricky.jpg"   width="1000px"
+            height="500px"></a>
+   
+        <a href="index4.html"><img src="mr poopybutthole,jpg.jpg" width="1000px"
+         height="500px"></a>   
+ 
+        <a href="index5.html"><img src="summer smith.jpg" width="1000px"
+          height="500px"></a>   <text></text>
+       
+
+
+      style>
+        <!--aqui pongo la informacion-->
+
+    </main>
+    <script>
+        const API_URL = rickandmortyapi.com
+        const datacontainer = document.getElementById('datacontainer');
+//Funcion para obtener los datos del API  
+        async function fetchData(url){ 
+            try{
+                const response = await fetch(url);
+                const data = await response.json();
+                displayData(data.results);
+            }catch    
+            }
+        ]
+    
+    </script>
+</body>
+</html>
